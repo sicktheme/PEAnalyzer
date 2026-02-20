@@ -1,0 +1,53 @@
+
+## 📝 Шаг 3: Создайте .gitignore
+
+```gitignore
+# Build artifacts
+build/
+*-build-desktop/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+
+# Qt Creator files
+*.user
+*.autosave
+*.creator.user*
+*.config
+*.pro.user*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Test binaries
+tests/*.exe
+tests/*.out
+
+# Logs
+*.log
+*.trace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

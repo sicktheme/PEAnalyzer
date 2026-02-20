@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/icons/pe_analyzer.jpg</file>
+    </qresource>
+</RCC>
